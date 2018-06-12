@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>脚本元素的使用</title>
+    <link rel="stylesheet" href="css/css3-3.css" type="text/css">
+    <script type="text/javascript" async="true">
+        function Btn_Click() {
+            var strTxt = document.getElementById("txtContent").value;
+            var strDiv = document.getElementById("divShow");
+            strDiv.style.display = "block";
+            strDiv.innerHTML = "您输入的字符串是："+strTxt;
+        }
+    </script>
+    <noscript>您的浏览器不支持JavaScript！</noscript>
+</head>
+<body>
+    <input type="text" id="txtContent" class="inputTxt"/>
+    <input type="button" value="请点击我" class="inputbtn" onclick="Btn_Click();">
+    <div id="divShow" class="divShow"></div>
+    <section draggable="true" class="showSection">
+        <h1>张国荣</h1>
+        <p>性别：男，邮箱地址：zhangguorong@163.com...</p>
+    </section>
+    <nav draggable="true">
+        <a href="index.html">首页</a>
+        <a href="index2-3.html">图书</a>
+        <a href="index2-4.html">论坛</a>
+    </nav>
+    <hgroup draggable="true">
+        <figcaption>标题组1</figcaption>
+        <h1>标题1</h1>
+        <h2>标题2</h2>
+    </hgroup>
+    <address title="联系方式">
+        Written by zhangtibin
+        <br>
+        <a href="mailto:zhangtibin_ios@163.com">Email me</a>
+    </address>
+    <ul>//创建了一个带嵌套的列表"数码"
+        <li>数码</li>
+        <li>图书
+            <ul>
+                <li>程序设计</li>
+                <li>网络编程</li>
+            </ul>
+        </li>
+        <li>百货</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hidden属性的使用</title>
+    <link rel="stylesheet" href="css/css3-3.css" type="text/css">
+    <script type="text/javascript" async="true">
+        function Rdo_Click(v) {
+            var bInShow = (v)?false:true;
+            var strArt = document.getElementById("art");
+            strArt.setAttribute("hidden",bInShow);
+        }
+    </script>
+</head>
+<body>
+    <h5>元素的隐藏属性</h5>
+    <nav style="padding-top: 5px; padding-bottom: 5px">
+        <input type="radio" id="rdoHidden_1" onclick="Rdo_Click(1)" name="rdoHidden" value="1" checked="true"/>显示
+        <input type="radio" id="rdoHidden_2" onclick="Rdo_Click(0)" name="rdoHidden" value="0"/>隐藏
+    </nav>
+    <article id="art" class="p3_8">今天是个好天气</article>
+
+</body>
+</html>

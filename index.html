@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" http-equiv="CONTENT-TYPE" content="text/html">
+    <title>检查是否浏览器是否支持 HTML 5</title>
+    <style type="text/css">
+        #header,#siderLeft,#siderRight, #footer{
+            border:solid 1px #666;
+            padding: 5px;
+        }
+        #header{
+            width: 500px;
+        }
+        #siderLeft{
+            float: left;
+            width: 60px;
+            height: 100px;
+        }
+        #siderRight {
+            float: left;
+            width: 428px;
+            height: 100px;
+        }
+        #footer{
+            clear: both;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="myCanvas" width="200" height="100" style="border: 2px solid #ccc; background-color: #eeeeee">
+        该浏览器不支持 HTML5 的画布标记！
+    </canvas>
+    <p>段落</p>
+    <br>
+    <div id="header">导航</div>
+    <div id="siderLeft">菜单</div>
+    <div id="siderRight">内容</div>
+    <div id="footer">底部</div>
+</body>
+</html>

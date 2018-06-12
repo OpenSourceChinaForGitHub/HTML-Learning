@@ -1,0 +1,47 @@
+@charset "utf-8";
+/*CSS Document*/
+body {
+    font-size: 12px;
+}
+.inputbtn{
+    border: solid 1px #cccccc;
+    background-color: #eeeeee;
+    line-height: 18px;
+    font-size: 12px;
+}
+.inputTxt {
+    border: solid 1px #cccccc;
+    line-height: 18px;
+    font-size: 12px;
+}
+.divShow{
+    border: solid 1px #666666;
+    background-color: #eeeeee;
+    margin-top: 5px;
+    padding: 5px;
+    width: 196px;
+    display: none;
+}
+.showSection {
+    border: solid 1px #365167;
+    background-color: #cfe3ed;
+    padding: 30px;
+    /*width: 500px;*/
+    /*display: ;*/
+}
+.p3_5 {
+    font-size: 18px;
+    color: red;
+}
+.p3_7 {
+    font-size: 14px;
+    color: #365167;
+}
+.p3_8 {
+    background-color: red;
+    font-size: 14px;
+}
+fieldset {
+    padding: 10px;
+    width: 300px;
+}

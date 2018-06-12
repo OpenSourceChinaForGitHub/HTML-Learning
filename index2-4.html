@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>交互元素<menu>的使用</title>
+    <style type="text/css">
+        body{
+            padding: 5px;
+            font-size: 12px;
+        }
+        menu{
+            padding: 0px;
+            margin: 0px;
+            display: block;
+            border: solid 1px #365167;
+            width: 222px;
+        }
+        menu li{
+            list-style-type: none;
+            padding: 5px;
+            margin: 5px;
+            height: 28px;
+            width: 200px;
+        }
+        menu li:hover{
+            border: solid 1px #7da2ce;
+            background-color: #cfe3ed;
+        }
+        menu li img{
+            clear: both;
+            float: left;
+            padding-right: 8px;
+            margin-top: -2px;
+        }
+        menu li span{
+            padding-top: 5px;
+            float: left;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <menu>
+        <li>
+            <img src="image/firefox.png" alt="">
+            <span>Mazilla Firefox</span>
+        </li>
+        <li>
+            <img src="image/google.png" alt="">
+            <span>Google Chrome</span>
+        </li>
+        <li>
+            <img src="image/Safari.png" alt="">
+            <span>Safari</span>
+        </li>
+    </menu>
+</body>
+</html>

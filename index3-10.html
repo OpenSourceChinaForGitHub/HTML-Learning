@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>contenteditable 属性的使用</title>
+    <link rel="stylesheet" href="css/css3-3.css" type="text/css">
+    <script type="text/javascript" async="true">
+        function Btn_Click() {
+            var strArt = document.getElementById("art_0").innerHTML;
+            var objArt = document.getElementById("art_1");
+            objArt.innerHTML = '<b>编辑后：</b>>'+strArt;
+        }
+    </script>
+
+</head>
+<body>
+    <h5>元素的内容编辑属性</h5>
+    <article contenteditable="true" class="p3_10" id="art_0">一段可编辑的文字</article>
+    <article class="p3_10" id="art_1"></article>
+    <input type="button" value="保存" class="inputbtn" onclick="Btn_Click();">
+</body>
+</html>
