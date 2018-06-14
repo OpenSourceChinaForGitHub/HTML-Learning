@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>通过类型过滤文件上传</title>
+    <link rel="stylesheet" href="css/css5.css" type="text/css">
+    <script type="text/javascript" language="JavaScript" src="js/js5-4.js"></script>
+</head>
+<body>
+<form action="" id="frmTmp">
+    <fieldset>
+        <legend>上传过滤类型后的文件：</legend>
+        <input type="file" id="fileUpload" name="fileUpload" onchange="fileUplaod_CheckType(this.files);" multiple="true">
+        <p id="pTip"></p>
+    </fieldset>
+</form>
+</body>
+</html>
