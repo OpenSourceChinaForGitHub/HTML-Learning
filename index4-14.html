@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form 中 checkValidity 方法的使用</title>
+    <link rel="stylesheet" href="css/css4.css" type="text/css">
+    <script type="text/javascript" language="JavaScript" src="js/js14.js"></script>
+</head>
+<body>
+<form action="" id="frmTmp" onsubmit="return chkPasswork()">
+    <fieldset>
+        <legend>CheckValidity()方法</legend>
+        <p>输入密码：
+            <input type="password" name="txtPassword" id="txtPassword" class="inputTxt" pattern="^[a-zA-Z]\w{5,7}$" required/>*
+            <span id="spnPassword"></span>
+        </p>
+        <p class="p_center">
+            <input type="submit" name="frmSubmit" class="inputbtn" value="确定"/>
+        </p>
+    </fieldset>
+</form>
+</body>
+</html>

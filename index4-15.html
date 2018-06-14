@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form 中 setCustomValidity 方法的使用</title>
+    <link rel="stylesheet" href="css/css4.css" type="text/css">
+    <script type="text/javascript" language="JavaScript" src="js/js15.js"></script>
+</head>
+<body>
+    <form action="" id="frmTmp" onsubmit="return getErrorInfo()">
+        <fieldset>
+            <legend>setCustomValidity()方法</legend>
+            <p>输入密码：
+                <input type="password" name="txtPassword_1" id="txtPassword_1" class="inputTxt" pattern="^[a-zA-Z]\w{5,7}$" required/>
+            </p>
+            <p>再次输入：
+                <input type="password" name="txtPassword_2" id="txtPassword_2" class="inputTxt" pattern="^[a-zA-Z]\w{5,7}$" required>
+            </p>
+            <p class="p_center">
+                <input type="submit" name="frmSubmit" class="inputbtn" value="确定"/>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
