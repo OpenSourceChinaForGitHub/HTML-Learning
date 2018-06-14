@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>input 元素中 pattern 属性的使用</title>
+    <link rel="stylesheet" href="css/css4.css" type="text/css">
+</head>
+<body>
+    <form action="" id="frmTmp">
+        <fieldset>
+            <legend>pattern属性：</legend>输入用户名：
+            <input type="text" name="txtAge" class="inputTxt" pattern="^[a-zA-Z]\w{5,7}$">
+            <input type="submit" name="frmSubmit" class="inputbtn" value="提交"/>
+            <p class="p_color">以字母开头，包含字符或数字和下划线，长度在6~8之间</p>
+        </fieldset>
+    </form>
+</body>
+</html>
