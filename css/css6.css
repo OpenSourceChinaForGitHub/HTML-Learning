@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/*CSS Document*/
+body {
+    font-size: 12px;
+}
+video {
+    border: solid #cccccc 5px;
+    padding: 3px;
+    background-color: #eeeeee;
+}

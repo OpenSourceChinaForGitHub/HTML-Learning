@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>video 元素的 Error 属性</title>
+    <link rel="stylesheet" href="css/css6.css" type="text/css">
+    <script type="text/javascript" language="JavaScript" src="js/js6-6.js"></script>
+</head>
+<body>
+    <video src="video/1.mp4" id="vdoMain" width="320" height="480" onerror="Video_Error(this)" controls="true" poster="image/google.png">您的浏览器不支持视频格式</video>
+    <span id="spnStatus"></span>
+    <video src="video/1.mp4" id="vdoMain1" onloadstart="load_start(this);"></video>
+    <video src="video/1.mp4" id="vdoMain2" ontimeupdate="progress(this)">您的浏览器不支持视频与音频</video>
+</body>
+</html>

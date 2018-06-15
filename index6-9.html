@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>获取多媒体元素在播放事件中的不同状态</title>
+    <link rel="stylesheet" href="css/css6.css" type="text/css">
+    <script type="text/javascript" language="JavaScript" src="js/js6-9.js"></script>
+</head>
+<body>
+    <div>
+        <video src="video/1.mp4" id="vdoMain" width="320" height="480" controls="true" onmouseout="v_move(0)" onmouseover="v_move(1)" onplaying="v_playing()" onpause="v_pause()" onloadstart="v_loadstart();" onended="v_ended()" poster="image/google.png">您的浏览器不支持视频</video>
+        <p id="pTip">
+            <span id="spnPlayTip" class="spnL"></span>
+        </p>
+    </div>
+</body>
+</html>
