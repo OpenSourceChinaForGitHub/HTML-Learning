@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>管理 localStorage 数据</title>
+    <link rel="stylesheet" href="css/css8.css" type="text/css">
+    <script type="text/javascript" language="JavaScript" src="js/js8-6.js"></script>
+</head>
+<body onload="getlocalData(0)">
+    <ul id="ulMessage">正在读取数据...</ul>
+    <p class="p5">
+        <span class="span1">学号：
+            <input type="text" readonly = "true" id="txtStuID" class="inputtxt" size="10"><br>
+            姓名：<input type="text" id="txtName" class="inputtxt" size="15">
+        </span>
+        <span class="spanr">
+            性别：
+            <select name="" id="selSex">
+                <option value="男">男</option>
+                <option value="女">女</option>
+            </select><br>
+            总分：
+            <input type="text" id="txtScore" class="inputtxt" size="8">
+        </span>
+        <p class="btn">
+        <input type="button" id="btnAdd" value="增加" class="inputbtn" onclick="btnAdd_Click();">
+        </p>
+    </p>
+</body>
+</html>

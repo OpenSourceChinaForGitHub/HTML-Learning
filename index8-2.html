@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用 loacalStorage 对象保存与读取登录用户名与密码</title>
+    <link rel="stylesheet" href="css/css8.css" type="text/css">
+    <script type="text/javascript" language="JavaScript" src="js/js8-2.js"></script>
+</head>
+<body onload="pageload();">
+    <form action="#" id="frmLogin">
+        <fieldset>
+            <legend>登录</legend>
+            <ul>
+                <li class="li_top"><span id="spnStatus"></span></li>
+                <li>名称：<input type="text" id="txtName" class="inputtxt"></li>
+                <li>密码：<input type="password" id="txtPass" class="inputtxt"></li>
+                <li><input type="checkbox" id="chkSave">是否保存密码</li>
+                <li class="li_bot">
+                    <input type="button" name="btnLogin" class="inputbtn" value="登录" onclick="btnLogin_click();">
+                    <input type="reset" name="rstLogin" class="inputbtn" value="取消">
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+</body>
+</html>

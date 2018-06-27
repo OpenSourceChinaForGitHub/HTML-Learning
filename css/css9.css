@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/*CSS Document*/
+body {
+    font-size: 12px;
+}
+fieldset {
+    padding: 10px;
+    width: 285px;
+    float: left;
+}
+output {
+    font-size: 14px;
+    font-family: Verdana, Geneva, sans-serif;
+    padding-left: 72px;
+}
+#pStatus {
+    display: none;
+    border: 1px #cccccc solid;
+    width: 158px;
+    background-color: #eeeeee;
+    padding: 6px 12px 6px 12px;
+    margin-left: 2px;
+}
+.inputbtn {
+    border: solid 1px #cccccc;
+    background-color: #eeeeee;
+    line-height: 18px;
+    font-size: 12px;
+}
+#pShow {
+    display: none;
+}
+.inputtxt {
+    border: solid 1px #cccccc;
+    line-height: 18px;
+    font-size: 12px;
+    padding-left: 3px;
+}
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 15px 0px 15px 0px;
+    text-align: center;
+}
+ul .li_bot {
+    padding-top: 10px;
+}
+ul .li_top {
+    padding-bottom: 10px;
+}
+#ulMessage {
+    width: 360px;
+}
+#ulMessage .spn_a {
+    width: 60px;
+    text-align: left;
+    float: left;
+}
+#ulMessage .spn_b {
+    width: 180px;
+    text-align: left;
+    float: left;
+}
+#ulMessage .li_h {
+    border-bottom: solid 1px #666666;
+    float: left;
+    background-color: #eeeeee;
+    padding: 5px;
+    font-weight: bold;
+}
+#ulMessage .li_c {
+     border-bottom: dashed 1px #cccccc;
+     float: left;
+     padding: 5px;
+}
+.p4 {
+    clear: both;
+    padding-top: 10px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用 executeSql 方法插入记录</title>
+    <link rel="stylesheet" href="css/css8.css" type="text/css">
+    <script type="text/javascript" language="JavaScript" src="js/js8-9.js"></script>
+</head>
+<body onload="Init_Data();">
+    <p id="pStatus"></p>
+    <fieldset>
+        <legend>新增学生资料</legend>
+        <span class="span1">
+            学号：<input type="text" readonly="true" id="txtStuID" class="inputtxt" size="10"><br>
+            姓名：<input type="text" id="txtName" class="inputtxt" size="15">
+        </span>
+        <span class="spanr">
+            性别：<select name="" id="selSex">
+            <option value="男">男</option><option value="女">女</option>
+        </select><br>
+            总分：<input type="text" id="txtScore" class="inputtxt" size="8">
+        </span>
+        <p class="btn"><input type="button" id="btnAdd" value="提交" class="inputbtn" onclick="btnAdd_Click();"></p>
+    </fieldset>
+</body>
+</html>
